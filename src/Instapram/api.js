@@ -12,7 +12,7 @@ class Instapram {
     }
 
     async login() {
-        this.browser = await puppeteer.launch({ headless: false });
+        this.browser = await puppeteer.launch({ headless: true });
         this.page = await this.browser.newPage();
 
         if (!this.page) {
