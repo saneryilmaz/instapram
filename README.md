@@ -1,6 +1,6 @@
 # Instapram
 
-Instapram, Instagram'da otomatik takip ve takipten çıkma işlemlerini gerçekleştiren bir Node.js uygulamasıdır. Bu proje Puppeteer ve Axios kütüphanelerini kullanarak Instagram'a giriş yapar ve kullanıcıları takip eder veya takipten çıkarır.
+Instapram, Instagram'da otomatik takip ve takipten çıkma işlemlerini gerçekleştiren bir Node.js kütüphanesidir. Bu proje Puppeteer ve Axios kütüphanelerini kullanarak Instagram'a giriş yapar ve kullanıcıları takip eder veya takipten çıkarır.
 
 ## Özellikler
 
@@ -8,34 +8,11 @@ Instapram, Instagram'da otomatik takip ve takipten çıkma işlemlerini gerçekl
 - **Takip Etme:** Belirtilen kullanıcıyı takip eder.
 - **Takipten Çıkma:** Belirtilen kullanıcıyı takipten çıkarır.
 
-## Gereksinimler
-
-- Node.js
-- Puppeteer
-- Axios
-
-## Kurulum
-
-1. Bu projeyi klonlayın veya indirin:
-    ```bash
-    git clone https://github.com/kullaniciadi/instapram.git
-    ```
-
-2. Proje dizinine gidin:
-    ```bash
-    cd instapram
-    ```
-
-3. Gerekli bağımlılıkları yükleyin:
-    ```bash
-    npm install
-    ```
-
 ## Kullanım
 
 1. `Instapram` sınıfını oluşturun:
     ```javascript
-    const Instapram = require('instapram');
+    const { Instapram } = require('instapram');
 
     const insta = new Instapram('KULLANICI_ADI', 'KULLANICI_SIFRE');
     ```
@@ -88,4 +65,4 @@ Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
 
 ## İletişim
 
-Herhangi bir sorun veya öneri için [email@domain.com](mailto:email@domain.com) adresinden iletişime geçebilirsiniz.
+Herhangi bir sorun veya öneri için [saner9053@gmail.com](mailto:saner9053@gmail.com) adresinden iletişime geçebilirsiniz.
