@@ -1,0 +1,31 @@
+{
+  "name": "instapram",
+  "version": "0.0.1",
+  "description": "Instagram uzerinden pek cok islemi gerceklestirebilirsiniz",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saneryilmaz/instapram.git"
+  },
+  "keywords": [
+    "instagram",
+    "auth",
+    "follow",
+    "follower",
+    "post",
+    "request"
+  ],
+  "author": "Saner Yılmaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saneryilmaz/instapram/issues"
+  },
+  "homepage": "https://github.com/saneryilmaz/instapram#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "puppeteer": "^23.3.0"
+  }
+}
